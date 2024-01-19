@@ -1,0 +1,52 @@
+{
+  "name": "Remove Any Animals",
+  "author": "Aidanamite",
+  "description": "Allows you to remove any animals from the world",
+  "version": "1.0.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/remove-any-animals/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "combobox",
+      "name": "addCombo",
+      "text": "Allowed Animals",
+      "default": "None",
+      "values": [ "None" ]
+    },
+    {
+      "type": "multibutton",
+      "name": "switch",
+      "buttons": [ "Down", "Up" ]
+    },
+    {
+      "type": "combobox",
+      "name": "removeCombo",
+      "text": "Disallowed Animals",
+      "default": "None",
+      "values": [ "None" ]
+    },
+    {
+      "type": "data",
+      "name": "disallowed",
+      "default": {}
+    },
+    {
+      "type": "checkbox",
+      "name": "beeDamage",
+      "text": "Disable Bee Damage (Host Only)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "name": "pufferExplode",
+      "text": "Disable Pufferfish Explode (Host Only)",
+      "default": false
+    }
+  ]
+}
